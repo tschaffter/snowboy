@@ -11,7 +11,7 @@ using namespace std;
  * rec -q -r 16000 -c 1 -b 16 -e signed-integer -t wav - | ./demo3
  */
 int main(int argc, char* argv[]) {
-  snowboy::SnowboyDetect detector("resources/common.res", "resources/models/snowboy.umdl");
+  snowboy::SnowboyDetect detector("resources/common.res", "resources/alexa/alexa_02092017.umdl");
   detector.SetSensitivity("0.5");
   detector.SetAudioGain(1.0);
   detector.ApplyFrontend(false);

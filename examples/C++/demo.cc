@@ -204,7 +204,7 @@ int main(int argc, char* argv[]) {
   //     "resources/models/snowboy.umdl,resources/models/smart_mirror.umdl";
   //   sensitivity_str = "0.5,0.5";
   std::string resource_filename = "resources/common.res";
-  std::string model_filename = "resources/models/snowboy.umdl";
+  std::string model_filename = "resources/alexa/alexa_02092017.umdl";
   std::string sensitivity_str = "0.5";
   float audio_gain = 1;
   bool apply_frontend = false;
